@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.bcrumb {
+  background: #f47408;
+}
+
+.bcrumb .breadcrumb {
+  margin: 0;
+  padding: 8px;
+  background: #f47408;
+}
+
+.bcrumb .breadcrumb li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bcrumb .breadcrumb > .active {
+  color: #333333;
+}
+
+.bcrumb .breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #fff;
+  content: "/\00a0";
+}
+
+/*-----------Slider Section--------------*/
+.slider-sec {
+  background-image: url("../images/slider-img.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position-x: -130px;
+  padding: 50px 0 150px;
+}
+
+.slider-sec .slider-txt h1 {
+  color: #292929;
+  text-shadow: 0 0px 2px rgba(109, 109, 109, 0.3);
+}
+
+.slider-sec .slider-txt h1 span {
+  color: #f47408;
+  font-weight: bold;
+}
+
+.slider-sec .slider-txt ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.slider-sec .slider-txt ul li {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.slider-sec .slider-txt ul li .fa {
+  color: #6ed423;
+}
+
+.slider-sec .book-form {
+  padding: 10px 20px 25px;
+  margin-top: 40px;
+  background: #4b4844;
+  float: right;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider-sec .book-form h3 {
+  color: #fff;
+  padding: 0px 0 15px;
+}
+
+.slider-sec .book-form h3 span {
+  color: #f47408;
+}
+
+.slider-sec .book-form .form-group {
+  position: relative;
+}
+
+.slider-sec .book-form .form-group #grade {
+  padding: 6px 25px;
+}
+
+.slider-sec .book-form .form-group input {
+  padding: 0 30px;
+}
+
+.slider-sec .book-form .form-group img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.slider-sec .book-form .btn {
+  background: #68c721;
+  border: none;
+  color: #fff;
+}
+
+/*-----------Course Section--------------*/
+.course-section {
+  background-color: #f2f3f7;
+  padding: 0 0 50px;
+}
+
+.course-section .course-program1, .course-section .course-program2 {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.course-section .course-program1 .crs-box1 {
+  background-color: #fdebdb;
+  border-radius: 5px;
+  padding: 1px 20px;
+  text-align: center;
+}
+
+.course-section .course-program1 .crs-box1 h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #f47408;
+}
+
+.course-section .course-program1 .crs-box1 p {
+  color: #333333;
+  font-size: 16px;
+}
+
+.course-section .course-program2 .crs-box2 {
+  border: 1px solid #f47408;
+  border-radius: 5px;
+  padding: 20px;
+  height: 340px;
+}
+
+.course-section .course-program2 .crs-box2 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.course-section .course-program2 .crs-box2 ul li {
+  padding-bottom: 10px;
+}
+
+.course-section .course-program2 .crs-box2 ul li span:empty {
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #f47408;
+  display: inline-block;
+  color: #333333;
+}
+
+.course-section .course-program2 .crs-box2 .btn {
+  background-color: #f47408;
+  border: 1px solid #f47408;
+  text-align: center;
+  margin: auto;
+}
+
+.course-section .course-details {
+  padding: 50px 0;
+}
+
+.course-section .course-details .header-txt h2 {
+  font-weight: bold;
+  color: #333333;
+  font-size: 28px;
+}
+
+.course-section .course-details .header-txt h2 span {
+  color: #f47408;
+}
+
+.course-section .course-details .cd-sec {
+  margin-top: 30px;
+}
+
+.course-section .course-details .cd-sec .cd-box {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.course-section .course-details .cd-sec .cd-box .cd-icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.course-section .course-details .cd-sec .cd-box .cd-icon img {
+  width: 50%;
+  display: inline-block;
+  margin-top: 26px;
+}
+
+.course-section .course-details .cd-sec .cd-box .cd-txt h3 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-section .course-details .cd-sec .cd-box .cd-txt p {
+  color: #333333;
+  width: 65%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
